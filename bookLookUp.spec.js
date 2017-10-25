@@ -24,5 +24,4 @@ test('Search Book by ISBN with AmazonSearch', () => {
     expect(mockAmazon).toBeCalled()
     expect(mockAmazon).toBeCalledWith('899199929')
 
-
 })
